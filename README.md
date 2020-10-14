@@ -18,7 +18,7 @@ I've written a set of SUPER SECRET unit tests that represent manual testing or u
 might perform. The error messages from failed tests are written similarly to feedback messages you might get
 from said coworkers - it's on you to figure out the guts of the problem and adapt your solution appropriately!
 
-#### To take this test, you need to:
+### To take this test, you need to:
 
 1. Set up this project
 2. Don't look in the `dont_look_in_here` folder
@@ -40,7 +40,7 @@ documentation and information you're given to start this hypothetical project.
 
 ## Setup and structure
 
-#### Installation
+### Installation
 
 This project is designed for a Unix system with Python 3 installed. Run the following in your terminal:
 
@@ -50,7 +50,7 @@ This project is designed for a Unix system with Python 3 installed. Run the foll
 * Ensure Postgres is running on your system ([instructions are here](https://www.postgresql.org/) if you need to set it up).
 * Create the database and install dependencies with `make install`.
 
-#### The code
+### The code
 
 Most of the code isn't particularly relevant. There are two files you need to look at:
 
@@ -64,7 +64,7 @@ There is also a SUPER SECRET folder that you need to not look at! `dont_look_in_
 and reading them would spoil the fun. Try to resist the temptation at least until you've done the test itself.
 Pretty please. :)
 
-#### Running the tests
+### Running the tests
 
 * Run `make test` in the terminal and observe the outcome!
 
