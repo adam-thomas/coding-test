@@ -1,3 +1,16 @@
+"""
+These are the Django models you need to work with.
+
+Don't edit them - assume that other systems rely on the same fields too, and the field names are fixed.
+Have a look through, and make sure you're comfortable with the relationships between them.
+
+Here's a handy diagram. The arrows represent ForeignKey relationships.
+
+Customer  <-----  Order  <--------+
+                                  |
+Product  <------------------- LineItem
+"""
+
 from django.core.validators import MinValueValidator
 from django.db import models
 
