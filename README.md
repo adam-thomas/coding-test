@@ -23,10 +23,11 @@ from said coworkers - it's on you to figure out the guts of the problem and adap
 1. Set up this project
 2. Don't look in the `dont_look_in_here` folder
 3. Familiarise yourself with the Django models in `models.py`
-4. Implement the `parse_orders` function, so that it creates the appropriate `Order` and `LineItem` objects to
+4. Implement the `parse_orders` function, so that it creates the appropriate Django objects to
 represent the `api_data` input
 5. Run the tests and see what does and doesn't work
 6. Repeat steps 4 and 5 until you feel you want to wrap up
+7. Send me all the code you wrote, along with any thoughts or observations you'd like to share!
 
 The test isn't designed to eat up a bunch of your time - I'm targeting around an hour, maybe two. Don't feel pressured to
 put loads of effort in, or persevere through getting stuck. If anything is unreasonably unclear, the setup instructions
@@ -37,7 +38,9 @@ in the interview :)
 The rest of this README gives you instructions on setting up the project and running the tests, and then the
 documentation and information you're given to start this hypothetical project.
 
-## Setup
+## Setup and structure
+
+#### Installation
 
 This project is designed for a Unix system with Python 3 installed. Run the following in your terminal:
 
@@ -47,11 +50,7 @@ This project is designed for a Unix system with Python 3 installed. Run the foll
 * Ensure Postgres is running on your system ([instructions are here](https://www.postgresql.org/) if you need to set it up).
 * Create the database and install dependencies with `make install`.
 
-## Running the tests
-
-* Run `make test` in the terminal and observe the outcome!
-
-## The code
+#### The code
 
 Most of the code isn't particularly relevant. There are two files you need to look at:
 
@@ -64,6 +63,10 @@ data in the database.
 There is also a SUPER SECRET folder that you need to not look at! `dont_look_in_here/` contains the unit tests,
 and reading them would spoil the fun. Try to resist the temptation at least until you've done the test itself.
 Pretty please. :)
+
+#### Running the tests
+
+* Run `make test` in the terminal and observe the outcome!
 
 ## API data documentation and other information you have
 
