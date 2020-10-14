@@ -55,7 +55,8 @@ This project is designed for a Unix system with Python 3 installed. Run the foll
 Most of the code isn't particularly relevant. There are two files you need to look at:
 
 * `orders/models.py` - these are the Django models you're going to be creating. In particular, your code needs to
-produce `Order` and `LineItem` objects.
+produce `Order` and `LineItem` objects. You don't need to modify this file, but you'll need to know the fields
+and relationships on the models themselves.
 * `orders/parse_orders.py` - this file contains the `parse_orders(api_data)` function you need to fill in. This
 function accepts a dictionary returned by an API call (documented below), and creates Django models to store the
 data in the database.
