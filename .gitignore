@@ -1,0 +1,11 @@
+# Python compile files
+__pycache__/
+.py[cod]
+
+# Virtualenv files
+bin/
+include
+lib/
+lib64
+pyvenv.cfg
+share/
